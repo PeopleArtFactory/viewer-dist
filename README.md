@@ -33,10 +33,10 @@ Si vas a realizar una instalación desde cero, en un nuevo servidor virtual (VM)
 	dokku apps:create paf-viewer
 	
 
-1.4.	Descarga y descomprime el código del módulo en tú maquina local, mediante este enlace:
+1.4.	Descarga el repositorio del módulo en tú maquina local, escribiendo en la consola:
 
-	https://github.com/PeopleArtFactory/viewer-dist/archive/master.zip
-
+	git clone https://github.com/PeopleArtFactory/viewer-dist.git
+	
 
 1.5.	Entra en la nueva carpeta recién creada, y añade el servidor Dokku como repositorio remoto Git, escribiendo en consola:
 
