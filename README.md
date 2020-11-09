@@ -61,12 +61,15 @@ Nota: Cuando termine todo el proceso, el visor deberá estar disponible a travé
 
 
 
+
 Paso 2: Descarga de exposiciones desde PeopleArtFactory.com. 
 
 Ve al menú de publicación (en la  última pestaña del modo de edición), de la exposición que quieras añadir y pulsa el botón “Exportar galería”. Pasados unos segundos, se descargará en tu máquina local un único archivo comprimido (.zip), con todos los datos, enlaces y los contenidos audiovisuales que usa tu galería.
 
 
+
 Paso 3: Carga de los contenidos de cada galería.
+
 El módulo del visor está configurado, de forma predetermina, para  que todas las carpetas de las diferentes exposiciones se guarden junto al resto de archivos pero, si lo deseas, puedes ubicar este almacén general en cualquier otro servidor independiente, con acceso a Internet, pues su ruta de acceso es configurable (modificando, en un editor de texto, el archivo config.json). Recuerda que, si vas a utilizar una ubicación en otro servidor (u otro puerto dentro del mismo), debes tener en cuenta la configuración de seguridad CORS.
 
 Si mantienes las rutas por defecto, para añadir una nueva exposición solo tienes que descomprimir todo el contenido del archivo .zip (obtenido en el paso anterior) en una subcarpeta dentro de la carpeta storage. Puedes subir los archivos directamente, mediante algún tipo de cliente web o sistema de FTP, pero, si has desplegado el sistema de publicación de Dokku (descrito en el paso 1), solo tienes que, una vez hayas ubicado correctamente los archivos en tu máquina local, hacer un commit  y un nuevo push:
