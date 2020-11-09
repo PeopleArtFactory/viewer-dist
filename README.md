@@ -7,7 +7,7 @@ Para hacer más sencillo el proceso de exportación, toda la información de cad
 
 El visor de exposiciones ha sido programado como una single-page application (SPA), o aplicación de página única, de forma que todos los códigos (HTML, JavaScript, y CSS)  están ya comprimidos, se cargan una sola vez y pueden ser ejecutados desde cualquier servidor web o hosting compartido, con unos mínimos ajustes en su configuración para que puedan servir sitios estáticos (como bloquear el cacheo de la página index.html). 
 
-En el caso de instalar el modulo en un servidor web ya existente, dispones de varias opciones, dependiendo la infraestructura de destino. Todas ellas requieren una configuración relativamente sencilla, como se indica en esta guía de referencia.
+En el caso de instalar el modulo en un servidor web ya existente, dispones de varias opciones, dependiendo la infraestructura de destino. Todas ellas requieren una configuración relativamente sencilla, como se indica en esta guía de referencia: https://quasar.dev/quasar-cli/developing-spa/deploying
 
 Si vas a realizar una instalación desde cero, en un nuevo servidor virtual (VM), con acceso remoto SSH y sistema operativo Linux Ubuntu, de forma general, pensamos que una de las mejores opciones, puedes ser usar el entorno Dokku, siguiendo estos sencillos pasos:
 
@@ -25,7 +25,7 @@ Si vas a realizar una instalación desde cero, en un nuevo servidor virtual (VM)
 
 	sudo DOKKU_TAG=v0.21.4 bash bootstrap.sh
 
-(Cuando se instalen todas las librerías, abre el navegador y ve al dominio elegido o la IP del servidor para completar el proceso de instalación. Si el primer campo de esta en blanco, deberás introducir la clave pública SSH, en el segundo campo puedes añadir la IP del servidor o dominio elegido y el último campo debe quedar sin marcar, para poder definir, más tarde, los dominios asignados a cada aplicación, de manera personalizada.)
+(Cuando se instalen todas las librerías, abre el navegador y ve al dominio elegido o la IP del servidor para completar el proceso de instalación. Si el primer campo de esta en blanco, deberás introducir la clave pública SSH, en el segundo campo puedes añadir la IP del servidor o dominio elegido y el último campo debe quedar sin marcar, para poder definir, más tarde, los dominios asignados a cada aplicación, de manera personalizada).
 
 
 1.3.	Una vez esté disponible la nueva infraestructura crea una nueva aplicación:
