@@ -29,9 +29,9 @@ sudo DOKKU_TAG=v0.21.4 bash bootstrap.sh
 
 dokku apps:create paf-viewer
 
-4.	Descarga el código del módulo en tú maquina local, escribiendo en la consola:
+4.	Descarga y descomprime el código del módulo en tú maquina local, mediante este enlace:
 
-	dokku domains:add paf-viewer tudominio.com
+	https://github.com/PeopleArtFactory/viewer-dist/archive/master.zip
 
 
 5.	Entra en la nueva carpeta recién creada, y añade el servidor Dokku como repositorio remoto Git, escribiendo en consola:
