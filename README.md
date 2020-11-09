@@ -43,10 +43,8 @@ Si vas a realizar una instalación desde cero, en un nuevo servidor virtual (VM)
 	git remote add dokku dokku@tudominio.com:paf-viewer
 	
 
-1.6.	Ya puedes publicar el módulo en el servidor, simplemente, haciendo un commit de todos los archivos  y  un push al nuevo repositorio remoto dokku en su rama master:
+1.6.	Ya puedes publicar el módulo en el servidor, simplemente, haciendo un push al nuevo repositorio remoto dokku en su rama master:
 
-	git add .
-	git commit –m “PAF viewer”
 	git push dokku master
 
 
@@ -54,11 +52,14 @@ Si vas a realizar una instalación desde cero, en un nuevo servidor virtual (VM)
 	
 	dokku domains:add paf-viewer tudominio.com
 
-Nota: Cuando termine todo el proceso, el visor deberá estar disponible a través del dominio elegido, pero, como aun no hay cargada ninguna exposición, si intentas acceder, te dará un error 404.
-
 1.8.	Para poder acceder con certificado de seguridad (https), puedes instalar el correspondiente plugin oficial de Letsencrypt para Dokku, desde su repositorio y seguir las instrucciones que encontraras en la documentación:
 
 	https://github.com/dokku/dokku-letsencrypt
+	
+
+Cuando termine todo el proceso, el visor deberá estar disponible a través del dominio elegido y debes poder cargar la galería de ejemplo:
+
+https://tudominio.com/g/demo
 
 
 
