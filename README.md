@@ -2,6 +2,7 @@
 Instalacion de modudo:
 
 Paso 1: Descarga e instalación del visor de exposiciones en tu propio servidor web.
+
 Para hacer más sencillo el proceso de exportación, toda la información de cada exposición se guarda en un único archivo de texto (en formato json) por lo que no es necesario la instalación de ningún sistema de base de datos adicional en el nuevo servidor.
 
 El visor de exposiciones ha sido programado como una single-page application (SPA), o aplicación de página única, de forma que todos los códigos (HTML, JavaScript, y CSS)  están ya comprimidos, se cargan una sola vez y pueden ser ejecutados desde cualquier servidor web o hosting compartido, con unos mínimos ajustes en su configuración para que puedan servir sitios estáticos (como bloquear el cacheo de la página index.html). 
